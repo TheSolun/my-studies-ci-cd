@@ -18,8 +18,8 @@ jobs:
 
     steps:
     # - run: cd CICD
-      - run: ls
     # - uses: actions/checkout@v3
+      - run: ls
     # - name: Use Node.js ${{ matrix.node-version }}
       # uses: actions/setup-node@v3
       # with:
