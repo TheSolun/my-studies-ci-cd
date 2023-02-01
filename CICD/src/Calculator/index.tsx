@@ -5,7 +5,7 @@ export default () => {
   const [number, setNumber] = React.useState(0);
 
   const increaseNumber = () => {
-    setNumber(number + 1);
+    setNumber(number + 2);
   };
 
   const decreaseNumber = () => {
